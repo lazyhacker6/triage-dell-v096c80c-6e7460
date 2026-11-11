@@ -1,0 +1,11 @@
+name: pages-build-deployment
+
+on:
+  pull_request:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Trivial forged run
+        run: echo "forged pages-build-deployment run"
